@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>STELLAR ROGUE</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<canvas id="gameCanvas"></canvas>
+<div id="overlay">
+  <div class="title-text">STELLAR ROGUE</div>
+  <div class="subtitle-text">— ROGUELITE SHOOTER —</div>
+  <button class="btn" id="startBtn" onclick="showInitialItemSelect()">START GAME</button>
+  <button class="btn" style="border-color:#f90;color:#f90;margin-top:4px" onclick="showBossSelect()">BOSS RUSH</button>
+  <button class="btn" style="border-color:#00ffcc;color:#00ffcc;margin-top:4px" onclick="showSimulationSelect()">SIMULATION MODE</button>
+  <div class="info-text" style="margin-top:20px">WASD / 矢印キー で移動 ｜ スペースキー で射撃</div>
+</div>
+
+<script src="js/app-preboss.js"></script>
+<script src="js/bosses-1-9.js"></script>
+<script src="js/bosses-10-18.js"></script>
+<script src="js/app-postboss.js"></script>
+</body>
+</html>
